@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Demo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="musik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Musik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="joystock-popsicle.ogg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="hongkonghustle.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="button_halt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="button_halt_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="button_opt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="button_opt_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="button_play.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="button_play_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="option.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="play.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pressoption.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pressplay.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pressquit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="quit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tikusputih.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="brick.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="music.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pressmusic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bg_rat.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
